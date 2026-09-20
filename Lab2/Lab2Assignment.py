@@ -14,8 +14,9 @@ import os
 import random
 import cv2
 
-POSITIVE_DIR = "surface-crack-detection/Positive"
-NEGATIVE_DIR = "surface-crack-detection/Negative"
+# Change from 'surface-crack-detection/Positive' to:
+POSITIVE_DIR = 'kaggledataset/Positive'
+NEGATIVE_DIR = 'kaggledataset/Negative'
 SAMPLE_SIZE_PER_CLASS = 300  # start small while tuning, increase later
 
 
